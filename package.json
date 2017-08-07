@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
+  "name": "@unction/keychain",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a chain of keys and a tree, traversing down and reaching the last value",
   "keywords": [
     "unction",
     "functional"
@@ -45,6 +45,8 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/flip": "^1.0.0",
+    "@unction/key": "^1.0.0",
+    "@unction/reducevalues": "^1.0.8"
   }
 }

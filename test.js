@@ -1,12 +1,21 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined */
 import {test} from "tap"
 
-import tempLate from "./"
+import keyChain from "./"
 
-test(({same, end}) => {
+test("With realized keychain", ({same, end}) => {
   same(
-    tempLate(true),
-    false
+    keyChain(["aaa", "bbb", "ccc"])({aaa: {bbb: {ccc: "1"}}}),
+    "1"
+  )
+
+  end()
+})
+
+test("With missing key", ({same, end}) => {
+  same(
+    keyChain(["aaa", "ddd", "ccc"])({aaa: {bbb: {ccc: "1"}}}),
+    undefined
   )
 
   end()
