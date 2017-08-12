@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined */
 import {test} from "tap"
 
-import key from "./source"
+import keyChain from "./source"
 
 test("With realized keychain", ({same, end}) => {
   same(
