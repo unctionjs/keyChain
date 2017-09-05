@@ -50,9 +50,9 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/flip": "^2.1.0",
-    "@unction/key": "^4.0.2",
-    "@unction/reducevalues": "^2.3.0"
+    "@unction/flip": "2.1.0",
+    "@unction/key": "4.0.2",
+    "@unction/reducevalues": "2.3.0"
   },
   "nyc": {
     "require": [
