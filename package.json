@@ -1,6 +1,6 @@
 {
   "name": "@unction/keychain",
-  "version": "2.34.0",
+  "version": "2.35.0",
   "description": "Takes a chain of keys and a tree, traversing down and reaching the last value",
   "keywords": [
     "unction",
