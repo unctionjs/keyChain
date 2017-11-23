@@ -51,8 +51,8 @@
   },
   "dependencies": {
     "@unction/flip": "2.8.0",
-    "@unction/key": "4.9.0",
-    "@unction/reducevalues": "2.39.0"
+    "@unction/key": "4.11.0",
+    "@unction/reducevalues": "2.41.0"
   },
   "nyc": {
     "require": [
