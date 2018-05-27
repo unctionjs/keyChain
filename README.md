@@ -1,3 +1,5 @@
+**NOTE: This library has been deprecated in favor of [unction/dig](https://github.com/unctionjs/dig)**
+
 # @unction/keyChain
 
 ![Tests][BADGE_TRAVIS]
